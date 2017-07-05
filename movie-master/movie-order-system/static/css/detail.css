@@ -1,0 +1,161 @@
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+html,
+body,
+span,
+dl,
+dt,
+dd {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 15.625vw;
+}
+
+body {
+	font-size: 12px;
+}
+
+.mui-title {
+	color: #fff;
+}
+
+.mui-content {
+	height: 100vh;
+	background: #fff;
+}
+
+#cont {
+	position: absolute;
+	top: 44px;
+}
+
+dl {
+	position: relative;
+	font-size: 0.2rem;
+	color: #fff;
+	background: url(../img/bg.png);
+}
+
+dl dt {
+	height: 100%;
+	padding: 0.5rem 0 0 0.5rem;
+	float: left;
+}
+
+dl dt h1 {
+	margin-bottom: 0.4rem;
+	font-size: 0.4rem;
+}
+
+dl dt p {
+	line-height: 0.4rem;
+}
+
+dl dd img {
+	width: 2.5rem;
+	height: 3rem;
+}
+
+#info {
+	height: 30vh;
+	width: 100vw;
+}
+
+#pic {
+	padding: 0.36rem 0.5rem 0 0;
+	float: right;
+}
+
+.read {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+}
+
+.read a {
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 0.8rem;
+}
+
+.read .sc {
+	height: 0.8rem;
+	width: 1.5rem;
+	background: #fcb942;
+}
+
+.read .start {
+	height: 0.8rem;
+	width: 4rem;
+	background: #ff4444;
+	float: right;
+}
+
+.uu {
+	height: 45px;
+	font-size: 0.3rem;
+	display: flex;
+	border-bottom: 2px solid #eee;
+}
+
+.uu li {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.uu .active {
+	color: #f44;
+}
+
+.content {
+	min-height: 4rem;
+	border-bottom: 2px solid #eee;
+	font-size: 12px;
+	padding: 5px 15px 0;
+}
+
+.content p {
+	text-indent: 2em;
+	line-height: 0.4rem;
+	margin-bottom: 0.2rem;
+}
+
+.content a {
+	font-size: 0.2rem;
+	display: inline-block;
+	width: 0.7rem;
+	height: 0.4rem;
+	border-radius: 10px;
+	line-height: 0.4rem;
+	text-align: center;
+}
+
+#tit {
+	font-weight: bold;
+	font-size: 0.25rem;
+}
+
+.el-carousel__item h3 {
+	color: #475669;
+	font-size: 14px;
+	opacity: 0.75;
+	line-height: 200px;
+	margin: 0;
+}
+
+.el-carousel__indicators--outside {
+   display: none;
+}
