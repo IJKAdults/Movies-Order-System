@@ -1,0 +1,62 @@
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+html,
+body,
+span,
+dl,
+dt,
+dd {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 15.625vw;
+}
+
+body {
+	font-size: 12px;
+}
+#cont{
+	width: 100%;
+}
+.meter{
+	display: inline-block;
+	background: #f44;
+	width: 0.6rem;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	margin-left: 0.2rem;
+}
+#list-icon li{
+	float: left;
+	border: 1px solid  #0190FE;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 0.1rem;
+}
+#list-icon li a{
+	padding: 0px 0.1rem;
+	display: inline-block;
+	color: #0190FE;
+	
+}
+.el-carousel__item h3 {
+	color: #475669;
+	font-size: 14px;
+	opacity: 0.75;
+	line-height: 200px;
+	margin: 0;
+}
+
+.el-carousel__indicators--outside {
+   display: none;
+}
+#addr{
+	width: 5rem;
+}

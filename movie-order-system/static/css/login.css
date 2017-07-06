@@ -1,0 +1,167 @@
+#con1 {
+	height: 100vh;
+	background: #2de;
+}
+
+html {
+	font-size: 15.625vw;
+}
+#login_con{
+	width: 100%;
+}
+.area {
+	margin: 20px auto 0px auto;
+}
+
+.mui-input-group {
+	margin-top: 10px;
+}
+
+.mui-input-group:first-child {
+	margin-top: 20px;
+}
+
+.mui-input-group label {
+	width: 22%;
+}
+
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	width: 78%;
+}
+
+.mui-checkbox input[type=checkbox],
+.mui-radio input[type=radio] {
+	top: 6px;
+}
+
+.mui-content-padded {
+	margin-top: 25px;
+}
+
+.mui-btn {
+	padding: 10px;
+}
+
+.link-area {
+	display: block;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.spliter {
+	color: #bbb;
+	padding: 0px 8px;
+}
+
+.oauth-area {
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.oauth-area .oauth-btn {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: 30px 30px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0px 20px;
+	/*-webkit-filter: grayscale(100%); */
+	border: solid 1px #ddd;
+	border-radius: 25px;
+}
+
+.oauth-area .oauth-btn:active {
+	border: solid 1px #aaa;
+}
+
+.oauth-area .oauth-btn.disabled {
+	background-color: #ddd;
+}
+
+.mui-bar .mui-title {
+	color: #fff;
+}
+#login_con{
+	position: absolute;
+	top: 44px;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+}
+
+.logo img {
+	width: 100px;
+	height: 100px;
+}
+
+.link-area a {
+	color: #fff;
+}
+
+.login {
+	height: 50px !important;
+	margin-bottom: 15px;
+	height: 1.3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.login input {
+	width: 4.2rem;
+	height: 100%;
+	border-radius: 10px;
+	background: #edd;
+}
+
+button {
+	width: 4.2rem;
+	border-radius: 10px;
+	color: #fff !important;
+	border-radius: 10px !important;
+	font-size: 0.4rem !important;
+}
+
+.hezuo {
+	font-size: 0.2rem;
+	text-align: center;
+	color: #fff;
+}
+
+.hezuo b {
+	display: inline-block;
+	width: 1.5rem;
+	height: 2px;
+	background: #edd;
+}
+
+.shejiao {
+	text-align: center;
+	margin-top: 0.4rem;
+}
+
+.shejiao a {
+	font-size: 0.7rem;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	margin: 0 0.2rem;
+	width: 1rem;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+}
+#login_btn{
+	background: #f44;
+	margin-left: 15%;
+}
